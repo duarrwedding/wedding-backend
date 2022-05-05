@@ -1,7 +1,7 @@
 <template>
   <div class="section-5">
     <div
-      class="content-5 d-flex justify-content-center flex-column align-items-center"
+      class="content-5 d-flex justify-content-center flex-column align-items-end"
     >
       <div class="title-content-5">
         <p class="title-5">ASALAMU'ALAIKUM</p>
@@ -64,12 +64,6 @@
 
 .content-5 {
   padding: 3vh 5vh;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 1;
 }
 
 .title-content-5 {
@@ -85,7 +79,6 @@
   margin: 0;
   font-size: 15px;
   z-index: 2;
-  position: relative;
 }
 
 .description-content-5 {
@@ -97,7 +90,6 @@
 }
 
 .description-footer-5 {
-  position: relative;
   font-size: 16px;
   display: flex;
   justify-content: center;
