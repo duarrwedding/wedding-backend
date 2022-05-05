@@ -73,14 +73,14 @@ export default {
 
 .title-1 {
   color: #e5d8d8;
-  font-size: 15px;
+  font-size: 25px;
   font-family: "CaviarDreams";
   letter-spacing: 8px;
 }
 
 .description-1 {
   color: #e5d8d8;
-  font-size: 8px;
+  font-size: 13px;
   font-family: "CaviarDreams";
   letter-spacing: 5px;
   margin-bottom: 15vh;
@@ -102,11 +102,11 @@ button:hover {
 
 .btn-invitation-1 {
   font-family: "CaviarDreamsBold";
-  font-size: 8px;
+  font-size: 13px;
   background-color: #e5d8d8;
   color: #212121;
   border-radius: 100vh;
-  padding: 2vh 2vh;
+  padding: 20px 34px;
   margin-top: 10vh;
   letter-spacing: 0.5vh;
   outline: none;
