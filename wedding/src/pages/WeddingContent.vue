@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="all-section">
     <section-one name="cover" />
     <section-two name="countdown" />
     <section-three name="ayat" />
@@ -71,5 +71,9 @@ export default {
 <style>
 .animate__delay-1s {
   --animate-delay: 0.75s;
+}
+.all-section {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 </style>
