@@ -46,7 +46,7 @@
 
 .rr-an-nur {
   padding-top: 13vh;
-  width: 57vh;
+  width: 40vh;
 }
 
 .surat-4 {
@@ -54,17 +54,17 @@
   text-justify: inter-word;
   padding: 5vh;
   font-family: "CaviarDreams";
-  letter-spacing: 2px;
+  letter-spacing: 0.2vh;
   line-height: 3vh;
   max-width: 500px;
   align-self: center;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .bunga-ayat {
   position: relative;
   width: 20vh;
   top: -15vh;
-  left: 33vh;
+  left: 25vh;
 }
 </style>

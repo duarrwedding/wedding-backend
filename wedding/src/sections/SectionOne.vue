@@ -42,13 +42,13 @@
 }
 
 .rr-logo-2 {
-  width: 20vh;
+  width: 15vh;
   display: block;
-  margin: 0 auto;
+  margin: 5vh auto 5vh auto;
 }
 
 .line-art-2 {
-  width: 55vh;
+  width: 45vh;
   display: block;
   margin: 0 auto;
 }
@@ -58,6 +58,7 @@
   font-size: 20px;
   letter-spacing: 3px;
   font-weight: bold;
+  margin: 5vh 0;
 }
 
 .rr-logo-2.animate__animated.animate__fadeIn {

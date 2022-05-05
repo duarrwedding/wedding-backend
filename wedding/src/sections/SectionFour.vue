@@ -64,6 +64,12 @@
 
 .content-5 {
   padding: 3vh 5vh;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  z-index: 1;
 }
 
 .title-content-5 {
@@ -126,8 +132,8 @@
 
 .bunga-mempelai {
   position: relative;
-  top: -27vh;
-  left: -22vh;
+  top: 70vh;
+  left: -20vh;
   width: 25vh;
   z-index: 0;
 }

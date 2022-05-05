@@ -78,7 +78,7 @@
   background-color: white;
   height: 100vh;
   color: #212121;
-  margin: 4vh;
+  margin: 1vh;
   font-family: "CaviarDreamsBold";
 }
 
@@ -98,7 +98,8 @@ label {
 
 form {
   text-align: left;
-  margin: 2vh 4vh 0 4vh;
+  padding: 1vh 2vh;
+  max-width: 84%;
 }
 
 input.form-name,
@@ -167,7 +168,7 @@ input[type="radio"]:checked:after {
 }
 
 .option-label {
-  margin-right: 1.5vh;
+  margin-right: 1vh;
 }
 
 .kehadiran-form {
@@ -185,6 +186,7 @@ input[type="radio"]:checked:after {
 }
 
 .button-send {
+  max-width: 95%;
   text-align: end;
 }
 </style>

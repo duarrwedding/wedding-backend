@@ -39,18 +39,23 @@ export default {
 }
 
 .rr-bunga-3 {
-  width: 20vh;
+  width: 15vh;
   position: absolute;
   left: 0;
   z-index: 99;
 }
 
 .rr-logo-3 {
-  margin-top: 10vh;
-  width: 12vh;
+  margin-top: 8vh;
+  width: 15vh;
+}
+
+.count-down-component {
+  margin-top: 5vh;
 }
 
 .rr-table-3 {
-  width: 55vh;
+  margin-top: 3vh;
+  width: 42vh;
 }
 </style>

@@ -43,7 +43,7 @@
 
 .title-6 {
   font-family: "CaviarDreamsBold";
-  font-size: 32px;
+  font-size: 28px;
   letter-spacing: 3px;
 }
 
@@ -77,15 +77,15 @@
 }
 
 .foto-akad {
-  margin-top: 3vh;
-  width: 35vh;
+  margin-top: 5vh;
+  width: 32vh;
   z-index: 29;
   position: relative;
 }
 
 .bunga-mempelai-akad {
   position: relative;
-  top: -27vh;
+  top: -25vh;
   right: -22vh;
   width: 25vh;
   z-index: 0;

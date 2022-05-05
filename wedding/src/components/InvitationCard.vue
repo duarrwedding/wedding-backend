@@ -73,7 +73,7 @@ export default {
 
 .title-1 {
   color: #e5d8d8;
-  font-size: 36px;
+  font-size: 32px;
   font-family: "CaviarDreamsBold";
   letter-spacing: 8px;
 }
@@ -107,7 +107,7 @@ button:hover {
   color: #212121;
   border-radius: 100vh;
   padding: 2.5vh 4vh;
-  margin-top: 5vh;
+  margin-top: 10vh;
   letter-spacing: 0.5vh;
   outline: none;
 }
