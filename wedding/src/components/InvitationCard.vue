@@ -24,7 +24,7 @@
         </div>
         <div class="d-flex justify-content-center">
           <button
-            class="btn-invitation-1 animate__animated animate__fadeIn animate__delay-1s"
+            class="btn-invitation-1 animate__animated animate__fadeInUp animate__delay-1s"
             @click="invite"
           >
             OPEN INVITATION
@@ -117,7 +117,7 @@ button:hover {
 }
 
 .rr-logo.animate__animated.animate__fadeIn {
-  --animate-delay: 0.5s;
+  --animate-delay: 1s;
 }
 
 .title-1.animate__animated.animate__fadeIn {
@@ -125,11 +125,11 @@ button:hover {
 }
 
 .description-1.animate__animated.animate__fadeIn {
-  --animate-delay: 1.5s;
+  --animate-delay: 1s;
 }
 
-.btn-invitation-1.animate__animated.animate__fadeIn {
-  --animate-delay: 2s;
+.btn-invitation-1.animate__animated.animate__fadeInUp {
+  --animate-delay: 1.5s;
 }
 
 .fade-enter-active,
