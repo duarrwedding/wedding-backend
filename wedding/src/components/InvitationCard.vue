@@ -73,14 +73,14 @@ export default {
 
 .title-1 {
   color: #e5d8d8;
-  font-size: 32px;
-  font-family: "CaviarDreamsBold";
+  font-size: 15px;
+  font-family: "CaviarDreams";
   letter-spacing: 8px;
 }
 
 .description-1 {
   color: #e5d8d8;
-  font-size: 16px;
+  font-size: 8px;
   font-family: "CaviarDreams";
   letter-spacing: 5px;
   margin-bottom: 15vh;
@@ -102,18 +102,18 @@ button:hover {
 
 .btn-invitation-1 {
   font-family: "CaviarDreamsBold";
-  font-size: 16px;
+  font-size: 8px;
   background-color: #e5d8d8;
   color: #212121;
   border-radius: 100vh;
-  padding: 2.5vh 4vh;
+  padding: 2vh 2vh;
   margin-top: 10vh;
   letter-spacing: 0.5vh;
   outline: none;
 }
 
 .rr-logo {
-  width: 50%;
+  width: 15vh;
 }
 
 .rr-logo.animate__animated.animate__fadeIn {
