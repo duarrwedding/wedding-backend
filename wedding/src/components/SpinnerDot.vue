@@ -9,7 +9,7 @@
 <style>
 .spinner {
   margin: 0 auto 0;
-  padding-top: 50vh;
+  padding-top: 48vh;
   width: 10vh;
   text-align: center;
 }

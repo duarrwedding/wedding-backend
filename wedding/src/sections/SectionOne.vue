@@ -13,17 +13,19 @@
         src="../assets/images/lineart.png"
         alt="Rasta & Reyhan Wedding"
       />
-      <p
-        class="description-2 animate__animated animate__fadeIn animate__delay-1s"
-      >
-        THE WEDDING OF
-      </p>
+      <img
+        class="the-wedding-of animate__animated animate__fadeIn animate__delay-1s"
+        src="../assets/images/the-wedding-of.png"
+        alt="Rasta & Reyhan Wedding"
+      />
       <p class="title-2 animate__animated animate__fadeIn animate__delay-1s">
         Rasta & Reyhan
       </p>
-      <p class="date-2 animate__animated animate__fadeIn animate__delay-1s">
-        May 21th, 2022
-      </p>
+      <img
+        class="may-21 animate__animated animate__fadeIn animate__delay-1s"
+        src="../assets/images/may-21.png"
+        alt="Rasta & Reyhan Wedding"
+      />
       <p class="location-2 animate__animated animate__fadeIn animate__delay-1s">
         Paviliun Sunda Resto,
       </p>
@@ -37,28 +39,30 @@
 <style>
 .section-2 {
   background-color: white;
-  height: 100vh;
-  color: #212121;
+  height: 81.6vh;
+  color: #333333;
 }
 
 .rr-logo-2 {
-  width: 15vh;
+  width: 25.36vw;
   display: block;
-  margin: 5vh auto 5vh auto;
+  margin: 3.9vh auto 0 auto;
 }
 
 .line-art-2 {
-  width: 45vh;
+  width: 73.4vw;
   display: block;
   margin: 0 auto;
 }
 
-.description-2 {
-  font-family: "CaviarDreamsBold";
-  font-size: 20px;
-  letter-spacing: 3px;
-  font-weight: bold;
-  margin: 5vh 0;
+.the-wedding-of {
+  width: 50.25vw;
+  margin: 8.48vh 0 5.13vh 0;
+}
+
+.may-21 {
+  width: 42.27vw;
+  margin: 4.8vh 0 1.56vh 0;
 }
 
 .rr-logo-2.animate__animated.animate__fadeIn {
@@ -89,17 +93,11 @@
   font-size: 32px;
   font-family: "DanielBold";
   letter-spacing: 5px;
-}
-
-.date-2 {
-  font-family: "CaviarDreamsBold";
-  font-size: 16px;
-  letter-spacing: 3px;
-  margin: 1vh;
+  margin: 0;
 }
 
 .location-2 {
-  font-family: "CaviarDreams";
+  font-family: "CaviarDreamsBold";
   padding: 0;
   margin: 0;
   font-size: 14px;

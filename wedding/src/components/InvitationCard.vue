@@ -3,9 +3,7 @@
     <div class="section-1">
       <spinner-dot v-if="spinner" />
       <template v-else>
-        <div
-          class="content-1 d-flex justify-content-center flex-column align-items-center"
-        >
+        <div class="content-1">
           <img
             class="rr-logo animate__animated animate__fadeIn animate__delay-1s"
             src="../assets/images/rr.png"
@@ -68,14 +66,15 @@ export default {
 }
 
 .content-1 {
-  padding-top: 27vh;
+  padding-top: 14vh;
 }
 
 .title-1 {
   color: #e5d8d8;
   font-size: 25px;
   font-family: "CaviarDreamsBold";
-  letter-spacing: 8px;
+  letter-spacing: 1.5vw;
+  margin: 11vh 0 3.6vh 0;
 }
 
 .description-1 {
@@ -83,7 +82,7 @@ export default {
   font-size: 13px;
   font-family: "CaviarDreamsBold";
   letter-spacing: 5px;
-  margin-bottom: 15vh;
+  margin: 0 0 28.7vh 0;
 }
 
 button,
@@ -106,14 +105,14 @@ button:hover {
   background-color: #e5d8d8;
   color: #212121;
   border-radius: 100vh;
-  padding: 20px 34px;
-  margin-top: 10vh;
+  padding: 2.3vh 9.66vw;
+  margin-top: 0;
   letter-spacing: 0.5vh;
   outline: none;
 }
 
 .rr-logo {
-  width: 25vh;
+  width: 41vw;
 }
 
 .rr-logo.animate__animated.animate__fadeIn {

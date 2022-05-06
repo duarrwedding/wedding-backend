@@ -3,10 +3,11 @@
     <section-one name="cover" />
     <section-two name="countdown" />
     <section-three name="ayat" />
+    <story-section name="story" />
     <section-four name="mempelai" />
-    <section-five name="akad" />
-    <section-six name="undangan" />
-    <section-seven name="listDoa" />
+    <section-five name="akad" hidden />
+    <section-six name="undangan" hidden />
+    <section-seven name="listDoa" hidden />
   </div>
 </template>
 
@@ -14,6 +15,7 @@
 import SectionOne from "../sections/SectionOne.vue";
 import SectionTwo from "../sections/SectionTwo.vue";
 import SectionThree from "../sections/SectionThree.vue";
+import StorySection from "../sections/StorySection.vue";
 import SectionFour from "../sections/SectionFour.vue";
 import SectionFive from "../sections/SectionFive.vue";
 import SectionSix from "../sections/SectionSix.vue";
@@ -24,6 +26,7 @@ export default {
     SectionOne,
     SectionTwo,
     SectionThree,
+    StorySection,
     SectionFour,
     SectionFive,
     SectionSix,

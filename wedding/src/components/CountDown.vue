@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p class="to-the-event">TO THE EVENT</p>
     <div class="time-count">
       <div>
         <p class="time-label">DAYS</p>
@@ -65,6 +66,13 @@ export default {
 </script>
 
 <style>
+.to-the-event {
+  padding: 7.36vh 0 4.35vh 0;
+  font-family: "CaviarDreamsBold";
+  font-size: 18px;
+  margin: 0;
+}
+
 .time-count {
   display: flex;
   flex-direction: row;
@@ -74,14 +82,15 @@ export default {
 
 .time-label {
   font-family: "CaviarDreamsBold";
-  padding-top: 5vh;
+  margin: 0 0 2vh 0;
+  font-size: 11px;
 }
 
 .time-value {
   font-family: "MontHeavy";
-  font-size: 44px;
+  font-size: 36px;
   margin: 0;
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
 }
 
 .description-2 {

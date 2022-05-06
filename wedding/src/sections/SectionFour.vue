@@ -1,8 +1,11 @@
 <template>
   <div class="section-5">
-    <div
-      class="content-5 d-flex justify-content-center flex-column align-items-end"
-    >
+    <div class="content-5">
+      <img
+        class="rr-logo-5"
+        src="../assets/images/rr-name.png"
+        alt="Rasta & Reyhan Wedding"
+      />
       <div class="title-content-5">
         <p class="title-5">ASALAMU'ALAIKUM</p>
         <p class="title-5">WARRAHMATULLAHI WABARRAKATUH</p>
@@ -20,15 +23,23 @@
       </div>
       <div class="mempelai-5">
         <div class="name-content-5">
-          <p class="name-5">RASTA NOOR SAVANNAH S.I.KOM</p>
+          <img
+            class="rasta-5"
+            src="../assets/images/rasta.png"
+            alt="Rasta & Reyhan Wedding"
+          />
           <p class="name-description-5">Putri dari pasangan</p>
           <p class="name-description-5">
             Bapak Lukito Nugroho & Ibu B Niken Amartani
           </p>
         </div>
-        <p>Dengan</p>
+        <p class="dengan">Dengan</p>
         <div class="name-content-5">
-          <p class="name-5">REYHAN M PRATAMA S.Ds.</p>
+          <img
+            class="reyhan-5"
+            src="../assets/images/reyhan.png"
+            alt="Rasta & Reyhan Wedding"
+          />
           <p class="name-description-5">Putra dari pasangan</p>
           <p class="name-description-5">
             Bapak Erizal Ahmad & Ibu Elly Felicia
@@ -46,28 +57,28 @@
         <p class="title-5">WARRAHMATULLAHI WABARAKATUH</p>
       </div>
     </div>
-    <img
-      class="bunga-mempelai"
-      src="../assets/images/bunga-mempelai.png"
-      alt="Rasta & Reyhan Wedding"
-    />
   </div>
 </template>
 
 <style>
 .section-5 {
-  background-color: white;
+  background-color: #333333;
   height: 100vh;
-  color: #212121;
+  color: #e4d7d7;
   font-family: "CaviarDreamsBold";
 }
 
+.rr-logo-5 {
+  width: 14.5vw;
+  margin: 4.46vh 0;
+}
+
 .content-5 {
-  padding: 3vh 5vh;
+  padding: 0 5vh;
 }
 
 .title-content-5 {
-  margin-bottom: 2vh;
+  margin-bottom: 3.35vh;
 }
 
 .footer-content-5 {
@@ -77,7 +88,7 @@
 
 .title-5 {
   margin: 0;
-  font-size: 15px;
+  font-size: 14px;
   z-index: 2;
 }
 
@@ -94,16 +105,18 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 5.58vh 0;
   z-index: 10;
 }
 
 .description-5 {
   text-align: justify;
+  text-align-last: center;
   text-justify: inter-word;
   max-width: 500px;
-  margin-bottom: 1vh;
+  margin-bottom: 1.79vh;
   align-self: center;
-  font-size: 15px;
+  font-size: 13px;
   z-index: 1;
 }
 
@@ -111,22 +124,18 @@
   margin: 3vh 0;
 }
 
-.name-5 {
-  font-family: "CaviarDreamsBold";
-  color: #cf881e;
-  font-size: 18px;
+.rasta-5,
+.reyhan-5 {
+  height: 1.45vh;
+  margin-bottom: 1.6vh;
 }
 
 .name-description-5 {
   margin: 0;
-  font-size: 15px;
+  font-size: 13px;
 }
 
-.bunga-mempelai {
-  position: relative;
-  top: 70vh;
-  left: -20vh;
-  width: 25vh;
-  z-index: 0;
+.dengan {
+  margin: 2.68vh 0;
 }
 </style>

@@ -1,14 +1,14 @@
 <template>
   <div class="section-4">
     <img
-      class="rr-logo-3"
+      class="rr-logo-4"
       src="../assets/images/rr-name.png"
       alt="Rasta & Reyhan Wedding"
     />
     <div>
       <img
-        class="rr-an-nur"
-        src="../assets/images/an-nur.png"
+        class="rr-ayat-quran"
+        src="../assets/images/ayat-quran.png"
         alt="Rasta & Reyhan Wedding"
       />
     </div>
@@ -24,8 +24,8 @@
       </p>
     </div>
     <img
-      class="bunga-ayat"
-      src="../assets/images/bunga-ayat.png"
+      class="mempelai-4"
+      src="../assets/images/mempelai.png"
       alt="Rasta & Reyhan Wedding"
     />
   </div>
@@ -35,7 +35,7 @@
 .section-4 {
   background-color: white;
   height: 100vh;
-  color: #212121;
+  color: #333333;
 }
 
 .content-4 {
@@ -44,27 +44,28 @@
   flex-direction: column;
 }
 
-.rr-an-nur {
-  padding-top: 13vh;
-  width: 40vh;
+.rr-ayat-quran {
+  width: 76.57vw;
 }
 
 .surat-4 {
   text-align: justify;
   text-justify: inter-word;
-  padding: 5vh;
-  font-family: "CaviarDreams";
-  letter-spacing: 0.2vh;
+  margin: 6.69vh 12.32vw 6.47vh 12.32vw;
+  font-family: "CaviarDreamsBold";
+  letter-spacing: 0.1vh;
   line-height: 3vh;
   max-width: 500px;
   align-self: center;
-  font-size: 14px;
+  font-size: 13px;
 }
 
-.bunga-ayat {
-  position: relative;
-  width: 20vh;
-  top: -15vh;
-  left: 25vh;
+.mempelai-4 {
+  width: 76.57vw;
+}
+
+.rr-logo-4 {
+  width: 14.5vw;
+  margin: 7.15vh 0 7.25vh 0;
 }
 </style>

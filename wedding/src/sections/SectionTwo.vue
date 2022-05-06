@@ -1,25 +1,15 @@
 <template>
   <div class="section-3">
-    <img
-      class="rr-bunga-3"
-      src="../assets/images/rr-bunga.png"
-      alt="Rasta & Reyhan Wedding"
-    />
-    <img
-      class="rr-logo-3"
-      src="../assets/images/rr-name.png"
-      alt="Rasta & Reyhan Wedding"
-    />
     <div
       class="content-3 d-flex justify-content-center flex-column align-items-center"
     >
       <count-down class="count-down-component" />
-      <img
-        class="rr-table-3"
-        src="../assets/images/rr-table.png"
-        alt="Rasta & Reyhan Wedding"
-      />
     </div>
+    <img
+      class="rr-table-3"
+      src="../assets/images/rr-table.png"
+      alt="Rasta & Reyhan Wedding"
+    />
   </div>
 </template>
 
@@ -34,8 +24,13 @@ export default {
 <style>
 .section-3 {
   background-color: white;
-  height: 100vh;
-  color: #212121;
+  height: 68.2vh;
+}
+
+.content-3 {
+  background-color: #333333;
+  color: #e4d7d7;
+  height: 29.57vh;
 }
 
 .rr-bunga-3 {
@@ -50,12 +45,8 @@ export default {
   width: 15vh;
 }
 
-.count-down-component {
-  margin-top: 5vh;
-}
-
 .rr-table-3 {
-  margin-top: 3vh;
-  width: 42vh;
+  margin-top: 6.13vh;
+  width: 77.77vw;
 }
 </style>
