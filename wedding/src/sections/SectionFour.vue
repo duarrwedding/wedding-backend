@@ -63,7 +63,7 @@
 <style>
 .section-5 {
   background-color: #333333;
-  height: 100vh;
+  min-height: 100vh;
   color: #e4d7d7;
   font-family: "CaviarDreamsBold";
 }
@@ -83,6 +83,7 @@
 
 .footer-content-5 {
   margin-top: 2vh;
+  padding-bottom: 2vh;
   z-index: 1;
 }
 

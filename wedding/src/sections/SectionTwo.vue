@@ -24,7 +24,7 @@ export default {
 <style>
 .section-3 {
   background-color: white;
-  height: 68.2vh;
+  min-height: 68.2vh;
 }
 
 .content-3 {

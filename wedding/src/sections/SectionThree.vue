@@ -34,7 +34,7 @@
 <style>
 .section-4 {
   background-color: white;
-  height: 100vh;
+  min-height: 100vh;
   color: #333333;
 }
 
@@ -62,6 +62,7 @@
 
 .mempelai-4 {
   width: 76.57vw;
+  margin-bottom: 2vh;
 }
 
 .rr-logo-4 {

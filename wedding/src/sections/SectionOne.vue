@@ -4,34 +4,30 @@
       class="content-2 d-flex justify-content-center flex-column align-items-center"
     >
       <img
-        class="rr-logo-2 animate__animated animate__fadeIn animate__delay-1s"
+        class="rr-logo-2"
         src="../assets/images/rr-name.png"
         alt="Rasta & Reyhan Wedding"
       />
       <img
-        class="line-art-2 animate__animated animate__fadeIn animate__delay-1s"
+        class="line-art-2"
         src="../assets/images/lineart.png"
         alt="Rasta & Reyhan Wedding"
       />
       <img
-        class="the-wedding-of animate__animated animate__fadeIn animate__delay-1s"
+        class="the-wedding-of"
         src="../assets/images/the-wedding-of.png"
         alt="Rasta & Reyhan Wedding"
       />
-      <p class="title-2 animate__animated animate__fadeIn animate__delay-1s">
-        Rasta & Reyhan
-      </p>
+      <p class="title-2">Rasta & Reyhan</p>
       <img
-        class="may-21 animate__animated animate__fadeIn animate__delay-1s"
+        class="may-21"
         src="../assets/images/may-21.png"
         alt="Rasta & Reyhan Wedding"
       />
-      <p class="location-2 animate__animated animate__fadeIn animate__delay-1s">
-        Paviliun Sunda Resto,
-      </p>
-      <p class="location-2 animate__animated animate__fadeIn animate__delay-1s">
-        Bandung, Jawa Barat
-      </p>
+      <div class="location-2-desc">
+        <p class="location-2">Paviliun Sunda Resto,</p>
+        <p class="location-2">Bandung, Jawa Barat</p>
+      </div>
     </div>
   </div>
 </template>
@@ -39,7 +35,7 @@
 <style>
 .section-2 {
   background-color: white;
-  height: 81.6vh;
+  min-height: 81.6vh;
   color: #333333;
 }
 
@@ -65,7 +61,7 @@
   margin: 4.8vh 0 1.56vh 0;
 }
 
-.rr-logo-2.animate__animated.animate__fadeIn {
+/* .rr-logo-2.animate__animated.animate__fadeIn {
   --animate-delay: 0.5s;
 }
 
@@ -87,7 +83,7 @@
 
 .location-2.animate__animated.animate__fadeIn {
   --animate-delay: 3s;
-}
+} */
 
 .title-2 {
   font-size: 32px;
@@ -102,5 +98,9 @@
   margin: 0;
   font-size: 14px;
   letter-spacing: 3px;
+}
+
+.location-2-desc {
+  margin-bottom: 2vh;
 }
 </style>

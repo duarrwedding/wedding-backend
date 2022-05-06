@@ -3,14 +3,9 @@
     <div
       class="content-7 d-flex justify-content-center flex-column align-items-center"
     >
-      <img
-        class="foto-undangan"
-        src="../assets/images/foto-undangan.png"
-        alt="Rasta & Reyhan Wedding"
-      />
       <p class="title-7">
-        Suatu kebahagiaan dapat melihat Bapak/Ibu/Saudara/i dapat hadir di acara
-        pernikahan kami
+        Suatu kebahagiaan dapat melihat Bapak/Ibu/ Saudara/i dapat hadir di
+        acara pernikahan kami
       </p>
       <form class="form-7">
         <label for="form-name">Nama</label><br />
@@ -31,30 +26,36 @@
         />
         <div class="kehadiran-form">
           <p class="kehadiran-6">Kehadiran</p>
-          <input
-            type="radio"
-            id="option-one"
-            class="option-radio"
-            name="option-kehadiran"
-            value="option-one"
-          />
-          <label class="option-label" for="option-one">Hadir, 1 orang</label>
-          <input
-            type="radio"
-            id="option-two"
-            class="option-radio"
-            name="option-kehadiran"
-            value="option-two"
-          />
-          <label class="option-label" for="option-two">Hadir, 2 orang</label>
-          <input
-            type="radio"
-            id="option-three"
-            class="option-radio"
-            name="option-kehadiran"
-            value="option-three"
-          />
-          <label class="option-label" for="option-three">Tidak Hadir</label>
+          <div class="the-option">
+            <input
+              type="radio"
+              id="option-one"
+              class="option-radio"
+              name="option-kehadiran"
+              value="option-one"
+            />
+            <label class="option-label" for="option-one">Hadir, 1 orang</label>
+          </div>
+          <div class="the-option">
+            <input
+              type="radio"
+              id="option-two"
+              class="option-radio"
+              name="option-kehadiran"
+              value="option-two"
+            />
+            <label class="option-label" for="option-two">Hadir, 2 orang</label>
+          </div>
+          <div class="the-option">
+            <input
+              type="radio"
+              id="option-three"
+              class="option-radio"
+              name="option-kehadiran"
+              value="option-three"
+            />
+            <label class="option-label" for="option-three">Tidak Hadir</label>
+          </div>
         </div>
         <label class="ucapan-doa" for="form-doa">Ucapan & Doa</label><br />
         <textarea
@@ -76,10 +77,10 @@
 <style>
 .section-7 {
   background-color: white;
-  height: 100vh;
-  color: #212121;
-  margin: 1vh;
+  color: #333333;
+  margin: 0 10.86vw;
   font-family: "CaviarDreamsBold";
+  text-align: justify;
 }
 
 .foto-undangan {
@@ -87,30 +88,30 @@
 }
 
 .title-7 {
-  font-size: 15px;
-  line-height: 3.5vh;
+  font-size: 12px;
+  line-height: 2.5vh;
+  margin-bottom: 4.46vh;
 }
 
 label {
-  font-size: 14px;
+  font-size: 10px;
   margin-left: 0.5vh;
 }
 
 form {
   text-align: left;
-  padding: 1vh 2vh;
-  max-width: 84%;
 }
 
 input.form-name,
 input.form-relation {
   background-color: #4f4f4f;
-  padding: 1.75vh;
+  padding: 1.45vh;
   border-radius: 25vh;
   outline: none;
-  margin: 0.5vh 0 3vh 0;
-  width: 100%;
+  margin: 0.5vh 0 1.9vh 0;
+  width: 70.5vw;
   color: white;
+  font-size: 10px;
 }
 
 textarea {
@@ -118,25 +119,28 @@ textarea {
   padding: 1.75vh;
   border-radius: 3vh;
   outline: none;
-  margin: 0.5vh 0 3vh 0;
-  width: 100%;
+  margin: 0.5vh 0 1.78vh 0;
+  width: 70.5vw;
+  height: 15.17hw;
   color: white;
+  font-size: 10px;
 }
 
 textarea:focus,
 input[type="text"]:focus {
   color: white;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 ::placeholder {
   color: white;
   opacity: 0.75;
+  font-size: 10px;
 }
 
 .kehadiran-6 {
-  margin: 0 0 0 0.5vh;
-  font-size: 14px;
+  margin: 0 0 1.56vh 0.5vh;
+  font-size: 10px;
 }
 
 input[type="radio"]:after {
@@ -151,6 +155,7 @@ input[type="radio"]:after {
   display: inline-block;
   visibility: visible;
   border: 4px solid #4f4f4f;
+  font-size: 10px;
 }
 
 input[type="radio"]:checked:after {
@@ -165,10 +170,12 @@ input[type="radio"]:checked:after {
   display: inline-block;
   visibility: visible;
   border: 4px solid #4f4f4f;
+  font-size: 10px;
 }
 
 .option-label {
   margin-right: 1vh;
+  font-size: 10px;
 }
 
 .kehadiran-form {
@@ -180,13 +187,18 @@ input[type="radio"]:checked:after {
   background-color: #4f4f4f;
   color: #e5d8d8;
   border-radius: 100vh;
-  padding: 1vh 5vh;
+  padding: 0.89vh 8.45vw;
   letter-spacing: 0.5vh;
   outline: none;
+  margin-bottom: 5vh;
 }
 
 .button-send {
-  max-width: 95%;
+  max-width: 100%;
   text-align: end;
+}
+
+.the-option {
+  margin-bottom: 1.56vh;
 }
 </style>

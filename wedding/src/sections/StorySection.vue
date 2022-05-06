@@ -54,7 +54,7 @@
   text-align: justify;
   text-justify: inter-word;
   background-color: #e4d7d7;
-  height: 100vh;
+  min-height: 100vh;
   color: #333333;
   font-family: "CaviarDreamsBold";
   font-size: 15px;
