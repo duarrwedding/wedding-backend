@@ -194,7 +194,8 @@
           <p class="description-al-6">Bandung City, West Java 40115</p>
         </div>
         <div class="button-content-6">
-          <button class="btn-google-maps-6">GOOGLE MAPS</button><br />
+          <button class="btn-google-maps-6" @click="goTo()">GOOGLE MAPS</button
+          ><br />
           <button class="btn-google-calendar-6">GOOGLE CALENDAR</button>
         </div>
         <div class="photo-description-6">
@@ -401,6 +402,11 @@ export default {
     // observer.observe(document.querySelector(".form-7"));
     // observer.observe(document.querySelector(".button-send"));
   },
+  methods: {
+    goTo() {
+      window.open("https://g.page/paviliunsunda?share", "_blank");
+    },
+  },
 };
 </script>
 
@@ -410,7 +416,6 @@ export default {
 }
 .all-section {
   max-width: 100%;
-  overflow-x: hidden;
   background-color: white;
 }
 
