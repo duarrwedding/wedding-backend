@@ -33,9 +33,11 @@
 
 <style>
 .section-4 {
-  background-color: white;
+  background-color: transparent;
   min-height: 100vh;
   color: #333333;
+  position: relative;
+  z-index: 9999;
 }
 
 .content-4 {

@@ -7,7 +7,7 @@
     </div>
     <img
       class="rr-table-3"
-      src="../assets/images/rr-table.png"
+      src="../assets/images/sketch-2.png"
       alt="Rasta & Reyhan Wedding"
     />
   </div>
@@ -23,8 +23,10 @@ export default {
 
 <style>
 .section-3 {
-  background-color: white;
+  background-color: transparent;
   min-height: 68.2vh;
+  position: relative;
+  z-index: 9999;
 }
 
 .content-3 {
@@ -48,5 +50,6 @@ export default {
 .rr-table-3 {
   margin-top: 6.13vh;
   width: 77.77vw;
+  background-color: transparent;
 }
 </style>

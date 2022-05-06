@@ -58,6 +58,8 @@
   color: #333333;
   font-family: "CaviarDreamsBold";
   font-size: 15px;
+  position: relative;
+  z-index: 9999;
 }
 
 .story-title {

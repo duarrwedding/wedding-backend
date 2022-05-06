@@ -34,9 +34,11 @@
 
 <style>
 .section-2 {
-  background-color: white;
+  background-color: transparent;
   min-height: 81.6vh;
   color: #333333;
+  position: relative;
+  z-index: 9999;
 }
 
 .rr-logo-2 {

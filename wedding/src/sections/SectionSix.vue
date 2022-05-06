@@ -76,11 +76,13 @@
 
 <style>
 .section-7 {
-  background-color: white;
+  background-color: transparent;
   color: #333333;
   margin: 0 10.86vw;
   font-family: "CaviarDreamsBold";
   text-align: justify;
+  position: relative;
+  z-index: 9999;
 }
 
 .foto-undangan {

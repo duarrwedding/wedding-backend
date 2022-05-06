@@ -1,5 +1,7 @@
 <template>
   <div class="all-section">
+    <img class="bunga-atas" src="../assets/images/bunga-atas.png" />
+    <img class="bunga-bawah" src="../assets/images/bunga-bawah.png" />
     <section-one name="cover" />
     <section-two name="countdown" />
     <section-three name="ayat" />
@@ -75,5 +77,22 @@ export default {
 .all-section {
   max-width: 100%;
   overflow-x: hidden;
+  background-color: white;
+}
+
+.bunga-atas {
+  position: fixed;
+  top: 10vh;
+  width: 25vw;
+  left: 0;
+  z-index: 1;
+}
+
+.bunga-bawah {
+  position: fixed;
+  bottom: 10vh;
+  width: 25vw;
+  right: 0;
+  z-index: 1;
 }
 </style>

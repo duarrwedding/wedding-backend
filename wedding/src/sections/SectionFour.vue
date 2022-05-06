@@ -66,6 +66,8 @@
   min-height: 100vh;
   color: #e4d7d7;
   font-family: "CaviarDreamsBold";
+  position: relative;
+  z-index: 9999;
 }
 
 .rr-logo-5 {

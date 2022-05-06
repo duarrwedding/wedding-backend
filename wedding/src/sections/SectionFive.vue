@@ -33,10 +33,12 @@
 
 <style>
 .section-6 {
-  background-color: white;
+  background-color: transparent;
   min-height: 100vh;
   color: #333333;
   font-family: "CaviarDreamsBold";
+  position: relative;
+  z-index: 9999;
 }
 
 .title-6 {

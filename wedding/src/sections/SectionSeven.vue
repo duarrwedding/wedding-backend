@@ -80,10 +80,12 @@
 
 <style>
 .section-8 {
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   min-height: 100vh;
   color: #333333;
   font-family: "CaviarDreamsBold";
+  position: relative;
+  z-index: 9999;
 }
 
 .title-8 {
