@@ -391,20 +391,10 @@ export default {
     observer.observe(document.querySelector(".count-down-component"));
     observer.observe(document.querySelector(".rr-table-3"));
     observer.observe(document.querySelector(".rr-ayat-quran"));
-    observer.observe(document.querySelector(".surat-4"));
-    observer.observe(document.querySelector(".title-content-5"));
-    observer.observe(document.querySelector(".description-content-5"));
+    observer.observe(document.querySelector(".mempelai-4"));
     observer.observe(document.querySelector(".mempelai-5"));
-    observer.observe(document.querySelector(".description-footer-5"));
-    observer.observe(document.querySelector(".footer-content-5"));
-    observer.observe(document.querySelector(".title-6"));
-    observer.observe(document.querySelector(".title-description-6"));
     observer.observe(document.querySelector(".button-content-6"));
     observer.observe(document.querySelector(".photo-description-6"));
-    observer.observe(document.querySelector(".mempelai-4"));
-    observer.observe(document.querySelector(".title-7"));
-    observer.observe(document.querySelector(".form-7"));
-    observer.observe(document.querySelector(".button-send"));
   },
   methods: {
     goTo() {
@@ -479,6 +469,10 @@ export default {
 
 .line-art-2.animate__animated.animate__fadeIn {
   --animate-delay: 0.75s;
+}
+
+.the-wedding-of.animate__animated.animate__fadeIn {
+  --animate-delay: 1.5s;
 }
 
 .description-2.animate__animated.animate__fadeIn {
