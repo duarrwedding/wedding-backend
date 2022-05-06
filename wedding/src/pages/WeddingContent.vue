@@ -5,27 +5,31 @@
     <div class="section-white section-2">
       <div class="content-2">
         <img
-          class="rr-logo-2"
+          class="rr-logo-2 animate__animated animate__fadeIn animate__delay-1s"
           src="../assets/images/rr-name.png"
           alt="Rasta & Reyhan Wedding"
         />
         <img
-          class="line-art-2"
+          class="line-art-2 animate__animated animate__fadeIn animate__delay-1s"
           src="../assets/images/lineart.png"
           alt="Rasta & Reyhan Wedding"
         />
         <img
-          class="the-wedding-of"
+          class="the-wedding-of animate__animated animate__fadeIn animate__delay-1s"
           src="../assets/images/the-wedding-of.png"
           alt="Rasta & Reyhan Wedding"
         />
-        <p class="title-2">Rasta & Reyhan</p>
+        <p class="title-2 animate__animated animate__fadeIn animate__delay-1s">
+          Rasta & Reyhan
+        </p>
         <img
-          class="may-21"
+          class="may-21 animate__animated animate__fadeIn animate__delay-1s"
           src="../assets/images/may-21.png"
           alt="Rasta & Reyhan Wedding"
         />
-        <div class="location-2-desc">
+        <div
+          class="location-2-desc animate__animated animate__fadeIn animate__delay-1s"
+        >
           <p class="location-2">Paviliun Sunda Resto,</p>
           <p class="location-2">Bandung, Jawa Barat</p>
         </div>
@@ -371,36 +375,36 @@ export default {
     CountDown,
   },
   mounted() {
-    // const observer = new IntersectionObserver((entries) => {
-    //   // We will fill in the callback later...
-    //   entries.forEach((entry) => {
-    //     // If the element is visible
-    //     if (entry.isIntersecting) {
-    //       // Add the animation class
-    //       entry.target.classList.add("animate__animated");
-    //       entry.target.classList.add("animate__fadeIn");
-    //       entry.target.classList.add("animate__delay-1s");
-    //     }
-    //   });
-    // });
-    // // Tell the observer which elements to track
-    // observer.observe(document.querySelector(".count-down-component"));
-    // observer.observe(document.querySelector(".rr-table-3"));
-    // observer.observe(document.querySelector(".rr-an-nur"));
-    // observer.observe(document.querySelector(".surat-4"));
-    // observer.observe(document.querySelector(".title-content-5"));
-    // observer.observe(document.querySelector(".description-content-5"));
-    // observer.observe(document.querySelector(".mempelai-5"));
-    // observer.observe(document.querySelector(".description-footer-5"));
-    // observer.observe(document.querySelector(".footer-content-5"));
-    // observer.observe(document.querySelector(".title-6"));
-    // observer.observe(document.querySelector(".title-description-6"));
-    // observer.observe(document.querySelector(".button-content-6"));
-    // observer.observe(document.querySelector(".photo-description-6"));
-    // observer.observe(document.querySelector(".foto-undangan"));
-    // observer.observe(document.querySelector(".title-7"));
-    // observer.observe(document.querySelector(".form-7"));
-    // observer.observe(document.querySelector(".button-send"));
+    const observer = new IntersectionObserver((entries) => {
+      // We will fill in the callback later...
+      entries.forEach((entry) => {
+        // If the element is visible
+        if (entry.isIntersecting) {
+          // Add the animation class
+          entry.target.classList.add("animate__animated");
+          entry.target.classList.add("animate__fadeIn");
+          entry.target.classList.add("animate__delay-1s");
+        }
+      });
+    });
+    // Tell the observer which elements to track
+    observer.observe(document.querySelector(".count-down-component"));
+    observer.observe(document.querySelector(".rr-table-3"));
+    observer.observe(document.querySelector(".rr-ayat-quran"));
+    observer.observe(document.querySelector(".surat-4"));
+    observer.observe(document.querySelector(".title-content-5"));
+    observer.observe(document.querySelector(".description-content-5"));
+    observer.observe(document.querySelector(".mempelai-5"));
+    observer.observe(document.querySelector(".description-footer-5"));
+    observer.observe(document.querySelector(".footer-content-5"));
+    observer.observe(document.querySelector(".title-6"));
+    observer.observe(document.querySelector(".title-description-6"));
+    observer.observe(document.querySelector(".button-content-6"));
+    observer.observe(document.querySelector(".photo-description-6"));
+    observer.observe(document.querySelector(".mempelai-4"));
+    observer.observe(document.querySelector(".title-7"));
+    observer.observe(document.querySelector(".form-7"));
+    observer.observe(document.querySelector(".button-send"));
   },
   methods: {
     goTo() {
@@ -469,12 +473,12 @@ export default {
   margin: 4.8vh 0 1.56vh 0;
 }
 
-/* .rr-logo-2.animate__animated.animate__fadeIn {
-  --animate-delay: 0.5s;
+.rr-logo-2.animate__animated.animate__fadeIn {
+  --animate-delay: 0.75s;
 }
 
 .line-art-2.animate__animated.animate__fadeIn {
-  --animate-delay: 1s;
+  --animate-delay: 0.75s;
 }
 
 .description-2.animate__animated.animate__fadeIn {
@@ -482,16 +486,16 @@ export default {
 }
 
 .title-2.animate__animated.animate__fadeIn {
-  --animate-delay: 2s;
+  --animate-delay: 1.5s;
 }
 
-.date-2.animate__animated.animate__fadeIn {
-  --animate-delay: 2.5s;
+.may-21.animate__animated.animate__fadeIn {
+  --animate-delay: 1.5s;
 }
 
-.location-2.animate__animated.animate__fadeIn {
-  --animate-delay: 3s;
-} */
+.location-2-desc.animate__animated.animate__fadeIn {
+  --animate-delay: 1.5s;
+}
 
 .title-2 {
   font-size: 32px;
@@ -509,7 +513,7 @@ export default {
 }
 
 .location-2-desc {
-  margin-bottom: 2vh;
+  margin-bottom: 7.36vh;
 }
 
 .section-3 {
@@ -569,7 +573,7 @@ export default {
 
 .mempelai-4 {
   width: 76.57vw;
-  margin-bottom: 2vh;
+  margin-bottom: 5.92vh;
 }
 
 .rr-logo-4 {
@@ -601,7 +605,7 @@ export default {
 
 .footer-content-5 {
   margin-top: 2vh;
-  padding-bottom: 2vh;
+  padding-bottom: 4.46vh;
   z-index: 1;
 }
 
@@ -645,7 +649,7 @@ export default {
 
 .rasta-5,
 .reyhan-5 {
-  height: 1.45vh;
+  width: 51.93vw;
   margin-bottom: 1.6vh;
 }
 
@@ -788,7 +792,7 @@ input.form-relation {
 textarea {
   background-color: #4f4f4f;
   padding: 1.75vh;
-  border-radius: 3vh;
+  border-radius: 2vh;
   outline: none;
   margin: 0.5vh 0 1.78vh 0;
   width: 70.5vw;
